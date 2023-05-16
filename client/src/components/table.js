@@ -37,7 +37,6 @@ export default function Table(props) {
               })}
             </>
           )}
-
           {props.isEdit === true && (
             <UpdateData
               updateData={props.updateData}
@@ -48,7 +47,6 @@ export default function Table(props) {
           )}
         </tbody>
       </table>
-
       {props.isEdit === false && (
         <div className="row">
           <div className="col-md-12">
